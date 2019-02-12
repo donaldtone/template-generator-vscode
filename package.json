@@ -1,15 +1,15 @@
 {
     "name": "template-generator-vscode",
     "displayName": "Template Generator",
-    "description": "Files/Folders template for vscode",
+    "description": "Files/Folders template for vscode. A fork fromDengSir/template-generator-vscode with SCREAMING_SNAKE_CASE field",
     "version": "0.4.1",
-    "publisher": "DengSir",
+    "publisher": "morintd",
     "icon": "images/icon.jpg",
     "license": "SEE LICENSE IN LICENSE.md",
     "main": "./out/src/extension",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DengSir/template-generator-vscode.git"
+        "url": "https://github.com/morintd/template-generator-vscode.git"
     },
     "engines": {
         "vscode": "^1.12.0"
