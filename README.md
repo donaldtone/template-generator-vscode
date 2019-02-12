@@ -30,6 +30,7 @@ This extension helps in creating files and folders easily from defined templates
 * `{__camelCaseName__}` : camelCaseFileName
 * `{__pascalCaseName__}` : PascalCaseFileName
 * `{__snakeCaseName__}` : snake_case_file_name
+* `{__screamingSnakeCaseName__}` : SCREAMING_SNAKE_CASE_FILE_NAME
 * `{__kebabCaseName__}` : kebab-case-file-name
 * `{__lowerDotCaseName__}` : lower.dot.case.file.name
 * `{__delete__}` : empty string
