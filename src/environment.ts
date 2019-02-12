@@ -15,6 +15,7 @@ export class Fields {
     private _camelCaseName: string;
     private _pascalCaseName: string;
     private _snakeCaseName: string;
+    private _screamingSnakeCaseName: string;
     private _kebabCaseName: string;
     private _lowerDotCaseName: string;
 
@@ -40,6 +41,11 @@ export class Fields {
         return _.snakeCase(this._name);
     }
 
+    @once('_screamingSnakeCaseName')
+    public get screamingSnakeCaseName() {
+        return _.toUpper(_.snakeCase(this._name));
+    }
+
     @once('_kebabCaseName')
     public get kebabCaseName() {
         return _.kebabCase(this._name);
@@ -54,6 +60,7 @@ export class Fields {
         this._name = name;
         this._camelCaseName = null;
         this._pascalCaseName = null;
+        this._screamingSnakeCaseName = null;
         this._snakeCaseName = null;
         this._kebabCaseName = null;
         this._lowerDotCaseName = null;
